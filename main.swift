@@ -94,7 +94,7 @@ class PlanejadorDeTarefas {
         let tarefa = Tarefa(descricao: texto, id: idtarefa)
         tarefas[idtarefa] = tarefa
         
-        print("Tarefa adicionanda com sucesso.\n")
+        print("Tarefa adicionada com sucesso.\n")
         menuPrincipal()
     }
     
