@@ -140,7 +140,7 @@ class PlanejadorDeTarefas {
                 }
             }
             
-            if (qtd > 0) {
+            if qtd > 0 {
                 print("Insira o número da tarefa que você quer marcar como concluída (0 para cancelar): ", terminator: "")
             
                 let escolhido = pedirNumero()
